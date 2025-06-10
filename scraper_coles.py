@@ -441,7 +441,7 @@ with open(filepath, 'w', encoding='utf-8') as f:
     json.dump(all_data, f, ensure_ascii=False, indent=4)
 
 # Save the scraped data to the MongoDB database
-client = MongoClient('mongodb+srv://discountmate_read_and_write:discountmate@discountmatecluster.u80y7ta.mongodb.net/?retryWrites=true&w=majority&appName=DiscountMateCluster')
+client = MongoClient('-----MONGODB--------DETAILS------')
 db = client['ScrappedData']
 collection = db[f'{timestamp}_Coles_All']
 collection.insert_many(all_data)
