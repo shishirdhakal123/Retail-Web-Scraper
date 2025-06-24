@@ -51,3 +51,6 @@ Retail-Web-Scraper/
 🎓 Postgraduate Student – IT Management  
 🌐 [shishirdhakal.com](https://shishirdhakal.com)  
 🔗 [LinkedIn](https://linkedin.com/in/shishirdhakal)
+
+For a full walkthrough and explanation, see the blog:  
+https://shishirdhakal.com/coles-web-scraper-project/
